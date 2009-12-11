@@ -4,11 +4,11 @@ This is my erlang implementation.
 
 h2. To run tests:
 # You will need to have erlang installed
-# Run `erl` in this directory
-# At the prompt, run `c(codebreaker).` to compile the code
-# Then run `codebreaker:test().`
+# Run @erl@ in this directory
+# At the prompt, run @c(codebreaker).@ to compile the code
+# Then run @codebreaker:test().@
 
 h2. To run method itself:
-# Run `erl` in this directory
-# At the prompt, run `c(codebreaker).` to compile the code
-# Then run something like `codebreaker:mark([r,y,g,b], [c,c,c,c])` where [r,y,g,b] is the secret and [c,c,c,c] is the guess
+# Run @erl@ in this directory
+# At the prompt, run @c(codebreaker).@ to compile the code
+# Then run something like @codebreaker:mark([r,y,g,b], [c,c,c,c])@ where [r,y,g,b] is the secret and [c,c,c,c] is the guess
