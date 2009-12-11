@@ -3,12 +3,12 @@ h1. Orlando Code Kata Challenge #1 - Codebreaker Marker
 This is my erlang implementation.
 
 h2. To run tests:
-1. You will need to have erlang installed
-1. Run `erl` in this directory
-2. At the prompt, run `c(codebreaker).` to compile the code
-3. Then run `codebreaker:test().`
+# You will need to have erlang installed
+# Run `erl` in this directory
+# At the prompt, run `c(codebreaker).` to compile the code
+# Then run `codebreaker:test().`
 
 h2. To run method itself:
-2. Run `erl` in this directory
-3. At the prompt, run `c(codebreaker).` to compile the code
-4. Then run something like `codebreaker:mark([r,y,g,b], [c,c,c,c])` where [r,y,g,b] is the secret and [c,c,c,c] is the guess
+# Run `erl` in this directory
+# At the prompt, run `c(codebreaker).` to compile the code
+# Then run something like `codebreaker:mark([r,y,g,b], [c,c,c,c])` where [r,y,g,b] is the secret and [c,c,c,c] is the guess
